@@ -35,7 +35,7 @@ export async function UserNav() {
                     <>
                         {/* User is logged In */}
                         <DropdownMenuItem>
-                            <form action={createHomewithId} className="w-full">
+                            <form action={createHomewithId} className="w-full border-violet-100/0">
                                 <button type="submit" className="w-full text-start">
                                     Airbnb your Home
                                 </button>
